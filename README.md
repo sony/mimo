@@ -1,5 +1,5 @@
 # Mirror in the Model: Ad Banner Image Generation via Reflective Multi-LLM and Multi-modal Agents
-This directory provides a minimal, runnable artifact accompanying the paper.
+This repo provides a minimal, runnable artifact accompanying the paper.
 
 ## Overview
 This repository contains the official implementation of the multi-agent, multi-modality LLM system described for ad banner generation in the paper [**“Mirror in the Model: Ad Banner Image Generation via Reflective Multi-LLM and Multi-modal Agents”**](https://arxiv.org/abs/2507.03326) by Zhao Wang, Bowen Chen, Yotaro Shimose, Sota Moriyama, Heng Wang, Shingo Takamatsu. For simplicity, we refer to our model as ***MIMO***. ***MIMO*** combines a hierarchical multi-modal agent system (MIMO-Core) with a coordination loop (MIMO-Loop) that explores multiple stylistic directions and iteratively improves design quality. Requiring only a simple natural language based prompt and logo image as input, MIMO automatically detects and corrects multiple types of errors during generation.
